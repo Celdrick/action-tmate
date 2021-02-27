@@ -11,5 +11,5 @@ inputs:
     default: 'true'
   limit-access-to-actor:
     description: 'If only the public SSH keys of the user triggering the workflow should be authorized'
-    required: true
+    required: false
     default: 'false'
